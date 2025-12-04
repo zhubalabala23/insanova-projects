@@ -1,32 +1,38 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Laravel\Fortify\Features;
-use Livewire\Volt\Volt;
 
+// beranda
 Route::get('/', function () {
-    return view('welcome');
-})->name('home');
-
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
-
-Route::middleware(['auth'])->group(function () {
-    Route::redirect('settings', 'settings/profile');
-
-    Volt::route('settings/profile', 'settings.profile')->name('profile.edit');
-    Volt::route('settings/password', 'settings.password')->name('user-password.edit');
-    Volt::route('settings/appearance', 'settings.appearance')->name('appearance.edit');
-
-    Volt::route('settings/two-factor', 'settings.two-factor')
-        ->middleware(
-            when(
-                Features::canManageTwoFactorAuthentication()
-                    && Features::optionEnabled(Features::twoFactorAuthentication(), 'confirmPassword'),
-                ['password.confirm'],
-                [],
-            ),
-        )
-        ->name('two-factor.show');
+    return view('beranda');
 });
+
+// beranda
+Route::get('/beranda', function () {
+    return view('beranda');
+});
+
+// arsip inovasi
+Route::get('arsip-inovasi', function () {
+    return view('arsip-inovasi');
+});
+
+// kirim ide
+Route::get('kirim-ide', function () {
+    return view('kirim-ide');
+});
+
+// tentang insanova
+Route::get('tentang-insanova', function () {
+    return view('tentang-insanova');
+});
+
+// login
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+// daftar
+Route::get('/register', function () {
+    return view('register');
+})->name('register');
