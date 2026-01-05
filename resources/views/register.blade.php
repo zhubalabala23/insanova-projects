@@ -109,6 +109,12 @@
                                 Don't have account? 
                                 <a href="{{ route('login') }}" class="text-teal-600 hover:text-teal-700 font-semibold">Login Here!</a>
                             </div>
+
+                            <!-- Kembali ke Beranda link -->
+                            <div class="text-center text-sm text-gray-600 mt-2 underline">
+                                <a href="{{ url('/') }}" class="text-teal-000 hover:text-teal-700 font-semibold">Kembali Ke Beranda!</a>
+                                </a>
+                            </div>
                         </form>
                     </div>
                 </div>

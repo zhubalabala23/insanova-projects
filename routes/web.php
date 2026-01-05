@@ -36,3 +36,15 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 })->name('register');
+
+Route::get('/best-six-innovators', function () {
+    return view('best-6/best-six-innovators-2025');
+})->name('best-six-innovators');
+
+Route::get('/best-six-innovators-2024', function () {
+    return view('best-6/best-six-innovators-2024');
+})->name('best-six-innovators-2024');
+
+Route::get('/best-six-innovators-2023', function () {
+    return view('best-6/best-six-innovators-2023');
+})->name('best-six-innovators-2023');

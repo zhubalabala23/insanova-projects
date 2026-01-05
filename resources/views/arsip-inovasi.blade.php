@@ -39,7 +39,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
                 </button>
-            </div>
+            </nav>
         </div>
 
         <!-- Mobile Menu -->
@@ -125,12 +125,12 @@
 
             <!-- Button Daftar Pemenang 2025 -->
             <div class="text-center mt-8">
-                <button class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
+                <a href="{{ route('best-six-innovators') }}" class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
                     Daftar Nominal Selengkapnya
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -198,12 +198,12 @@
 
             <!-- Button Daftar Pemenang 2024 -->
             <div class="text-center mt-8">
-                <button class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
+                <a href="{{ route('best-six-innovators') }}" class="inline-flex items-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
                     Daftar Nominal Selengkapnya
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
-                </button>
+                </a>
             </div>
         </div>
     </section>
