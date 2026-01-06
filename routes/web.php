@@ -48,3 +48,7 @@ Route::get('/best-six-innovators-2024', function () {
 Route::get('/best-six-innovators-2023', function () {
     return view('best-6/best-six-innovators-2023');
 })->name('best-six-innovators-2023');
+
+Route::get('/learn-more', function () {
+    return view('learn-more');
+})->name('learn-more');

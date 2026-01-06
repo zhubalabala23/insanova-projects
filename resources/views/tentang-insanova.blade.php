@@ -223,6 +223,13 @@
             <p class="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
                 Wujudkan ide inovatif Anda dan berkontribusi untuk masa depan yang lebih baik bagi pekerja Indonesia
             </p>
+
+            <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-8 text-center max-w-2xl mx-auto rounded">
+            <p class="text-red-700 text-sm text-left">
+                <span class="font-bold">*Catatan Penting:</span> Sebelum menyalurkan ide Anda marilah membuat akun terlebih dahulu supaya diri anda terdaftar sebagai pengirim ide di Insanova.
+            </div>
+        </p>
+
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="{{ url('/kirim-ide') }}" class="inline-block bg-white text-teal-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg transition duration-300 shadow-lg">
                     Kirim Ide Sekarang

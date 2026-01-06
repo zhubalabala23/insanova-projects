@@ -289,8 +289,15 @@
         <p class="text-lg mb-8 opacity-90">
             Bergabunglah dengan INSANOVA 2025 dan wujudkan ide inovatif Anda!
         </p>
-        <a href="{{ url('/kirim-ide') }}" class="inline-block bg-white text-teal-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg transition duration-300 shadow-lg">
-            Daftar Sekarang
+
+        <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-8 text-center max-w-2xl mx-auto rounded">
+                <p class="text-red-700 text-sm text-left">
+                    <span class="font-bold">*Catatan Penting:</span> Sebelum menyalurkan ide Anda marilah membuat akun terlebih dahulu supaya diri anda terdaftar sebagai pengirim ide di Insanova.
+            </div>
+        </p>
+
+        <a href="{{ url('/register') }}" class="inline-block bg-white text-teal-700 hover:bg-gray-100 font-bold px-8 py-4 rounded-lg transition duration-300 shadow-lg">
+            Buat Akun Sekarang 
         </a>
     </div>
 </section>
